@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BS Components</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+		<a href="" class="navbar-brand">MTG</a>
+
+		<button class="navbar-toggler" data-target="#myNav" data-toggle="collapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="myNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a href="" class="nav-link">HOME</a></li>
+				<li class="nav-item"><a href="" class="nav-link">SERVICES</a></li>
+				<li class="nav-item"><a href="" class="nav-link">ABOUT</a></li>
+				<li class="nav-item"><a href="" class="nav-link">CONTACT</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<h1 class="my-5 pl-5">Hello Bootstrap!</h1>
+
+	<button class="btn btn-info">Click Me</button>
+	<button class="btn btn-danger">Click Me</button>
+	<button class="btn btn-light">Click Me</button>
+	<button class="btn btn-dark">Click Me</button>
+	<button class="btn btn-warning">Click Me</button>
+	<button class="btn btn-primary">Click Me</button>
+	<button class="btn btn-secondary">Click Me</button>
+	<button class="btn btn-success">Click Me</button>
+
+	<button class="btn btn-outline-danger">Outline</button>
+	<h1 class="bg-success text-light text-center mt-5 py-5">Background</h1>
+	<!-- my,mx,ml,mr,mb,mt 
+		 py,px,pl,pr,pb,pt-->
+
+
+		 
+
+	<!-- <img class="img-fluid" src="img/image.jpeg"> -->
+	<div class="w-25 h-25 my-5">
+		<img class="img-fluid" src="img/girl.jpeg">
+	</div>
+
+	<!-- Jumbotron -->
+	<div class="jumbotron bg-success text-light my-5">
+		<p class="display-4">Hello Jumbotron</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<button class="btn btn-outline-warning">Learn More</button>
+	</div>
+
+	
+
+	<!-- Card -->
+	<div class="card w-25 h-25 my-5 ml-5">
+		<div class="card-header text-center">Title</div>
+			<div class="card-body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
+			</div>
+			<div class="card-footer">
+				<button class="btn btn-info btn-lg">Add</button>
+			</div>
+	</div>
+
+	<div class="card w-25 h-25 my-5 ml-5">
+		<img src="img/image.jpeg" class="card-img-top">
+		<div class="card-body">
+			<h3>This is title</h3>
+			<p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			</p>
+		</div>
+	</div>
+
+	<div class="mt-5">
+		
+	</div>
+
+	<div class="mt-5"></div>
+
+	<!-- <div class="container">
+		<div class="alert alert-danger">Your Login is fail</div>
+		<div class="alert alert-success ">Your login is successful</div>
+		<div class="alert alert-primary">Your insert data is success
+			<button class="close" data-dismiss="alert"><span></span></button></div>
+		
+		</div>
+
+		<button class="btn btn-danger">Click</button>
+		<a href="" class="btn btn-primary">Click</a> -->
+
+	<div class="container my-5">
+		<form enctype="multipart/form-data">
+			<div class="form-group">
+				<label for="name">Name</label>
+				<input type="text" name="" class="form-control" id="name">
+			</div>
+
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" name="" class="form-control "id="email">
+				
+			</div>
+
+			<div class="form-group">
+				<input type="checkbox" name="" class="form-check-input" id="reading">
+				<label for="reading">Reading</label>	
+			</div>
+
+			<div class="form-group">
+				<label>Year</label>
+				<select class="form-control">
+					<option>First Year</option>
+					<option>Second Year</option>
+					<option>Third Year</option>
+					<option>Fouth Year</option>
+					<option>Fifth Year</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label>Profile</label>
+				<input type="file" name="" class="form-control-file">				
+			</div>
+
+			<div class="form-group">
+				<label>Address</label>
+				<textarea class="form-control"></textarea>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label>First Name</label>
+						<input type="text" name="" class="form-control">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label>Last Name</label>
+						<input type="text" name="" class="form-control">
+					</div>
+				</div>
+			</div>
+			<button class="btn btn-outline-primary">Submit</button>
+		</form>
+	</div>
+
+	<div class="container my-5">
+		<div class="table-responsive">
+			<table class="table table-info table-striped table-borderedless">
+			<thead class="thead-dark">
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Phone No</th>
+					<th>Gender</th>
+					<th>Year</th>
+					<th>Address</th>
+					<th>Father Name</th>
+					<th>NRC</th>
+					<th>DOB</th>
+					<th>Religion</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				<td>MgMg</td>
+				<td>mgmg@gmail.com</td>
+				<td>0943122649</td>
+				<td>Male</td>
+				<td>Third Year</td>
+				<td>Yangon</td>
+				<td>U Ba</td>
+				<td>9/sakana(N)08000</td>
+				<td>9.9.1999</td>
+				<td>Buddha</td>
+				</tr>
+				<tr>
+				<td>MgMg</td>
+				<td>mgmg@gmail.com</td>
+				<td>0943122649</td>
+				<td>Male</td>
+				<td>Third Year</td>
+				<td>Yangon</td>
+				<td>U Ba</td>
+				<td>9/sakana(N)08000</td>
+				<td>9.9.1999</td>
+				<td>Buddha</td>
+				</tr>
+				<tr>
+				<td>MgMg</td>
+				<td>mgmg@gmail.com</td>
+				<td>0943122649</td>
+				<td>Male</td>
+				<td>Third Year</td>
+				<td>Yangon</td>
+				<td>U Ba</td>
+				<td>9/sakana(N)08000</td>
+				<td>9.9.1999</td>
+				<td>Buddha</td>
+				</tr>
+				<tr>
+				<td>MgMg</td>
+				<td>mgmg@gmail.com</td>
+				<td>0943122649</td>
+				<td>Male</td>
+				<td>Third Year</td>
+				<td>Yangon</td>
+				<td>U Ba</td>
+				<td>9/sakana(N)08000</td>
+				<td>9.9.1999</td>
+				<td>Buddha</td>
+				</tr>
+				<tr>
+				<td>MgMg</td>
+				<td>mgmg@gmail.com</td>
+				<td>0943122649</td>
+				<td>Male</td>
+				<td>Third Year</td>
+				<td>Yangon</td>
+				<td>U Ba</td>
+				<td>9/sakana(N)08000</td>
+				<td>9.9.1999</td>
+				<td>Buddha</td>
+				</tr>
+				<tr>
+				<td>MgMg</td>
+				<td>mgmg@gmail.com</td>
+				<td>0943122649</td>
+				<td>Male</td>
+				<td>Third Year</td>
+				<td>Yangon</td>
+				<td>U Ba</td>
+				<td>9/sakana(N)08000</td>
+				<td>9.9.1999</td>
+				<td>Buddha</td>
+				</tr>
+				<tr>
+				<td>MgMg</td>
+				<td>mgmg@gmail.com</td>
+				<td>0943122649</td>
+				<td>Male</td>
+				<td>Third Year</td>
+				<td>Yangon</td>
+				<td>U Ba</td>
+				<td>9/sakana(N)08000</td>
+				<td>9.9.1999</td>
+				<td>Buddha</td>
+				</tr>
+				<tr>
+				<td>MgMg</td>
+				<td>mgmg@gmail.com</td>
+				<td>0943122649</td>
+				<td>Male</td>
+				<td>Third Year</td>
+				<td>Yangon</td>
+				<td>U Ba</td>
+				<td>9/sakana(N)08000</td>
+				<td>9.9.1999</td>
+				<td>Buddha</td>
+				</tr>
+				<tr>
+				<td>MgMg</td>
+				<td>mgmg@gmail.com</td>
+				<td>0943122649</td>
+				<td>Male</td>
+				<td>Third Year</td>
+				<td>Yangon</td>
+				<td>U Ba</td>
+				<td>9/sakana(N)08000</td>
+				<td>9.9.1999</td>
+				<td>Buddha</td>
+				</tr>
+				<tr>
+				<td>MgMg</td>
+				<td>mgmg@gmail.com</td>
+				<td>0943122649</td>
+				<td>Male</td>
+				<td>Third Year</td>
+				<td>Yangon</td>
+				<td>U Ba</td>
+				<td>9/sakana(N)08000</td>
+				<td>9.9.1999</td>
+				<td>Buddha</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Phone No</th>
+					<th>Gender</th>
+					<th>Year</th>
+					<th>Address</th>
+					<th>Father Name</th>
+					<th>NRC</th>
+					<th>DOB</th>
+					<th>Religion</th>
+				</tr>
+			</tfoot>
+		</table>
+			
+		</div>
+		
+	</div>
+
+	<!-- Modal -->
+	<div class="container my-5">
+		<button class="btn btn-outline-dark" data-target="#myModal" data-toggle="modal">Show Modal</button>
+	</div>
+
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1>This is Header</h1>
+
+					<button class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+					<button class="btn btn-outline-info">Save</button>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+	<div class="container my-5">
+		<div class="accordion" id="#myAccodion" >
+			<div class="card">
+				<div class="card-header">
+					<button class="btn btn-link btn-block text-left" data-target="#cone" data-toggle="collapse">Collapse One</button>
+				</div>
+			</div>
+			<div class="collapse show" id="cone" data-parent="#myAccodion">
+				<div class="card-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<button class="btn btn-link btn-block text-left" data-target="#two" data-toggle="collapse">Collapse Two</button>
+				</div>
+			</div>
+
+			<div class="collapse" id="two" data-parent="#myAccodion">
+				<div class="card-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<button class="btn btn-link btn-block text-left" data-target="#three" data-toggle="collapse">Collapse Three</button>
+				</div>
+			</div>
+
+			<div class="collapse" id="three" data-parent="#myAccodion">
+				<div class="card-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div>	
+		</div>	
+	</div>
+
+	<div class="container my-5">
+		<div class="carousel slide" data-ride="carousel" id="myCarousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/carousel1.jpg" class="d-block w-100" alt="sushi">
+				</div>
+				<div class="carousel-item ">
+					<img src="img/carousel2.jpg" class="d-block w-100" alt="sushi">
+				</div>
+				<div class="carousel-item ">
+					<img src="img/carousel3.jpg" class="d-block w-100" alt="coffee">
+				</div>
+			</div>
+		</div>
+
+		<a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a href="#myCarousel" class="carousel-control-next" data-slide="prev">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+
+		
+	</div>
+
+
+
+	
+
+
+
+
+
+
+
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
